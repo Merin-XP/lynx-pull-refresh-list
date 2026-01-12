@@ -51,7 +51,7 @@ import { PullRefreshList } from './components/PullRefreshList';
   keyExtractor={(item) => `item-${item.id}`}
 
   // 头部组件
-  headerComponent={<FilterPanel {...filterProps} />}
+  headerComponent={<xxx/>}
   headerHeight={250}  // 头部高度，用于触摸排除
 
   // 下拉刷新
@@ -82,7 +82,7 @@ import { PullRefreshList } from './components/PullRefreshList';
 
   // 头部
   headerComponent={
-    <FilterPanel
+    <xxx
       categories={categories}
       filters={filters}
       onFilterChange={handleFilterChange}
