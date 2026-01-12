@@ -1,0 +1,14 @@
+/* 旋转动画 - 用于刷新图标 */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 应用旋转动画的 class */
+.spinning {
+  animation: spin 1s linear infinite;
+}

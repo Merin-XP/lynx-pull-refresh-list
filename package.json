@@ -1,0 +1,28 @@
+{
+  "name": "lynx-pull-refresh-list",
+  "version": "1.0.0",
+  "description": "一个支持下拉刷新、上拉加载的通用列表组件，适用于 Lynx 框架",
+  "main": "index.ts",
+  "types": "types.ts",
+  "keywords": [
+    "lynx",
+    "pull-refresh",
+    "list",
+    "react",
+    "component"
+  ],
+  "author": "Merin-XP",
+  "license": "MIT",
+  "peerDependencies": {
+    "@lynx-js/react": "^1.0.0",
+    "@lynx-js/types": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Merin-XP/lynx-pull-refresh-list.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Merin-XP/lynx-pull-refresh-list/issues"
+  },
+  "homepage": "https://github.com/Merin-XP/lynx-pull-refresh-list#readme"
+}
